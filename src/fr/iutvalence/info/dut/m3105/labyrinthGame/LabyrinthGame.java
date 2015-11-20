@@ -79,7 +79,7 @@ public class LabyrinthGame
 
 	private void processScanAction()
 	{
-		// not yet implemented		
+		// not yet implemented
 	}
 
 	private void processUTurnAction()

@@ -21,12 +21,12 @@ public class Labyrinth
 	 * Constructs a new labyrinth with given size and forbidden cell positions
 	 * 
 	 */
-	public Labyrinth(int width, int height, Set<Position> forbiddenCellPositions, Position exitPosition)
+	public Labyrinth(int width, int height, Set<Position> forbiddenCellsPositions, Position exitPosition)
 	{
 		this.width = width;
 		this.height = height;
 		this.exitPosition = exitPosition;
-		this.forbiddenCellsPositions = forbiddenCellPositions;
+		this.forbiddenCellsPositions = forbiddenCellsPositions;
 	}
 
 	public int getWidth()
